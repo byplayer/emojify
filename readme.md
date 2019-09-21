@@ -6,14 +6,29 @@ This is go lang implementation of [mrowa44/emojify](https://github.com/mrowa44/e
 
 # installation
 
+```bash
+% go get github.com/byplayer/emojify/src/cmd/emojify
+```
+
 # How to use it
 
 ## command line
 
 ```bash
-echo :+1: nice! | emojify
+% echo :+1: nice! | emojify
 ```
 
 ## git log
 
-## git alias
+```bash
+% git log | emojify | less -r
+```
+
+## git configuration
+
+If you set below configuration in .gitconfig, then all git log uses emojify filter.
+
+```
+[pager]
+  log = emojify | less -r
+```
