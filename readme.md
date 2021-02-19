@@ -7,7 +7,7 @@ This is go lang implementation of [mrowa44/emojify](https://github.com/mrowa44/e
 # installation
 
 ```bash
-% go get github.com/byplayer/emojify/src/cmd/emojify
+% go get github.com/byplayer/emojify/v2/cmd/emojify
 ```
 
 # How to use it
