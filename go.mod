@@ -1,3 +1,3 @@
-module github.com/byplayer/emojify/v2
+module github.com/byplayer/emojify
 
-go 1.17
+go 1.12
